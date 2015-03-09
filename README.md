@@ -1,4 +1,4 @@
-Web News Portal
+#Web News Portal
 
 A fully customizable news portal that uses Liferay's portlet technology to provide news to the end users for free.
 
