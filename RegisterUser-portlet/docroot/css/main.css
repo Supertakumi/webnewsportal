@@ -1,0 +1,204 @@
+/*.registeruser .portlet, .registeruser .portlet-content, .registeruser .portlet-content-container .portlet-body{
+	height:auto;
+}*/
+.registeruser .portlet-content{
+//	height: auto;
+	border-top-width:0px;
+} 
+
+.registeruser .maindiv{
+	height: 50px;
+	width : 300px;
+//	background-color: red;
+	position: absolute;
+	margin-left: 140px;
+}
+.registeruser .maindiv:hover .regclass1{
+	height:400px;
+	
+}
+.registeruser .ribbon{
+	position:absolute;
+	float:left;
+	
+//	background-color:blue;
+	margin-top:0px;
+	margin-left:30px;
+}
+.registeruser .pp{
+	font:bold 100px Georgia,serif;
+//	text-shadow:2px 2px grey;
+	position:absolute;
+	float:left;
+	margin-left:111px;
+//	background-color:yellow;
+	margin-top:7px;
+}
+.registeruser .pp p{
+	font:italic bold 30px Georgia,serif;
+	color:#1b82e6;
+}
+
+.registeruser .portlet-topper{
+	display:none;
+}
+
+
+.registeruser .portlet{
+	
+	box-shadow:  0px 0px 10px 2px #cbcbcb;
+	
+   background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #d9e1f9), color-stop(0.38,#d9e1f9), color-stop(0.00, #d9e1f9));
+	border-radius: 10px;
+	margin-top:40px;
+	margin-left:-10px;
+	width:110%;
+	height:500px;
+}
+.registeruser .portlet-topper{
+	display: none;
+}
+
+.registeruser h1
+{
+//color:orange;
+//text-align:center;
+}
+
+.registeruser .portlet
+{
+	background-color: transparent;
+	border: 0px solid blue;
+}
+
+.registeruser .one{
+	background: url(../images/1.jpg);
+}
+.registeruser .sing-in{
+	display: block;
+}
+.registeruser .reg{
+	display: none;
+}
+
+#email, #password, #repassword, #gender, #dob, #month, #year, #fName, #lName {
+	border-color: grey;
+}
+
+.registeruser p
+{
+	background: url(../../../images/input_shadow.png);
+}
+
+.registeruser .portlet-topper
+{
+	//display: none;
+}
+
+#dob, #month, #year 
+{
+	color: grey;
+}
+
+option
+{
+	color:black;
+}
+
+#s1, #s2, #s3, #s4
+{
+	color:grey;	
+}
+
+#t1
+{
+	height:20px;
+	vertical-align:bottom;
+}
+
+
+.div-upside-down
+{
+	
+    width:350px;
+	height:1px;
+	
+	transition: height 8s;  
+	-webkit-transition: height 2s, -webkit-transform 4s; /* Safari */
+
+    background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+	border-radius: 28px;
+	box-shadow: 5px 5px 5px #888888;
+
+	 opacity: 0.9;
+
+}
+
+.regclass1
+{
+//	display:none;
+	
+	margin-top:50px;
+	margin-left:-51px;
+	position:absolute;
+	
+	width:350px;
+	height:0px;
+	
+	transition: height 8s;  
+	-webkit-transition: height 2s, -webkit-transform 4s; /* Safari */
+	
+	background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+	border-radius: 28px;
+	box-shadow: 5px 5px 5px #888888;
+	
+	opacity: 0.9;	
+}
+
+
+#td1, #td2, #td3, #td4, #td5, #tr1, #tr2, #tr3, #tr4, #tr5, #tr6, #tr7, #tr8, #rf
+{
+	 opacity: 0.0;
+}
+
+/*.registeruser .regclass1 .rf, .registeruser .regclass1 .tr1, .registeruser .regclass1 .tr2, .registeruser .regclass1 .tr3, .registeruser .regclass1 .tr4, .registeruser .regclass1 .tr5, .registeruser .regclass1 .tr6, .registeruser .regclass1 .tr7, .registeruser .regclass1 .tr8{
+	opacity: 0.0;
+	display: none;	
+}
+
+.registeruser .regclass1:hover .rf, .registeruser .regclass1:hover .tr1, .registeruser .regclass1:hover .tr2, .registeruser .regclass1:hover .tr3, .registeruser .regclass1:hover .tr4, .registeruser .regclass1:hover .tr5, .registeruser .regclass1:hover .tr6, .registeruser .regclass1:hover .tr7, .registeruser .regclass1:hover .tr8{
+	display:block;
+	opacity: 0.9;
+}*/
+.registeruser .regclass1{
+
+}
+	
+.body1{
+	background:blue;
+}
+
+#a1, #rf
+{
+	color:#083e55;
+	font-size:12pt;
+}
+
+.registeruser #d1{
+	position:absolute;
+	margin-left:-6px;
+	margin-top:-10px
+}
+
+.registeruser #gender0{
+	
+	position:absolute;
+	margin-left:-7px;
+	margin-top:0px
+		
+}
+

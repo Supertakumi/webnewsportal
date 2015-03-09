@@ -1,0 +1,279 @@
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+.chat-bar{
+	display: none;	
+}
+
+#footer{
+	display:none;
+}
+#skip-to-content{
+	display:none;
+}
+
+.page-title{
+	display:none;
+}
+
+#navigation span, #navigation ul{
+	display:none;
+}
+
+#navigation {
+	margin-top:3%;
+	margin-left:-1.6%;
+	background: #ffffff url(../images/world2.png);
+	height: 200px;
+	width: 95.7%;
+//border-buttom-left-radius:40px;
+//	border-radius:40px;
+	box-shadow: 0px -1px 4px 3px #888888;
+//  border-top-style:outset;
+//  border-top-width:5px;
+//  border-color:#aaa;
+//  background:red;
+//	display:none;
+}
+
+#breadcrumbs{
+	display: none;
+}
+
+.site-title{
+//	background: blue;
+//	width: 200px;
+}
+
+#wrapper{
+	background:transparent;
+//	background:blue;	
+	margin-top: -20px;
+	margin-left: 7%;
+	height: 1000px;
+	width:85%;
+//	box-shadow: 3px 0px 6px 0px #888888;
+//  border-left-style:outset;
+//  border-color:#aaa;
+}
+
+#main-content
+{ 
+	
+	margin-top:0.32%;
+//	background:green;
+	background:#fcfffe;
+	height:3000;
+	width:100.2%;
+//	overflow:scroll;
+	margin-left:0.1%;
+
+	box-shadow: 0px 5px 4px 4px #888888;
+	
+}
+#wrapper #banner
+{
+	width:1200px;
+	margin-left:20px;
+}
+
+#wrapper #heading
+{
+background:#3A8AB3 url(../images/h2.gif) repeat-x top left;
+//background-image: url(http://protolize.org/images/headerBG.gif);
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: initial;
+background-repeat-x: repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: #3A8AB3;
+
+height:120px;
+width:95.7%;
+
+margin-left:-1.7%;
+margin-top:25px;
+
+box-shadow: 0px -1px 4px 3px #888888;
+//border-top-style:outset;
+border-color:#aaa;
+	
+}
+
+body{
+//background:#fdfcfd;
+ background: #ffffff url(../images/brushed_alu.png);
+}
+
+
+.portlet-topper{
+	margin-top:20px;
+	margin-left:45px;
+	//background: #fcfffe url(../images/portlet-topperaaa.png) no-repeat;
+	//background-attachment: fixed;
+	height: 30px;
+}
+
+.portlet-topper h1{
+	margin-left:-20px;
+	padding: 10px;
+	font:bold 25px Georgia,serif;
+	text-shadow:2px 2px grey;
+}
+
+#banner #sign-in{
+	color:red;
+	font:italic bold 20px Georgia,serif;
+	margin-left:90%;
+	margin-top:1%;
+}
+
+#banner
+{
+	background:transparent;
+}
+
+//portlet
+
+.aui-w40{
+	margin-left:10%;
+}
+
+.portlet-layout #column-2{
+	width:50%;
+//	background-color:red;
+	margin-left:100px;
+}
+#layout-column_column-2
+{
+	
+	width:100%;
+	background-color:#fcfffe;
+}
+
+#layout-column_column-3
+{
+	margin-left:10%;
+	width:78.2%;
+	background:transparent;
+
+}
+
+.portlet-content{
+	
+	border-top-style:groove;
+    border-top-width:2px;
+    border-color:black;
+//	border-top:solid 2px black;	
+
+	margin-top:2%;
+	margin-left: 2.5%;
+	height:400px;
+ 	width:520px;
+//	overflow-y:scroll;
+
+//	 background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+//	border-radius: 28px;
+//	box-shadow: 0px 30px 40px rgba(0,0,0,.1);;
+
+	
+}
+.portlet-body {
+//	height:200px;
+//	width:150px;
+//overflow:scroll;
+ scrollbar-base-color: orange; 
+	scrollbar-arrow-color: green;
+	scrollbar-DarkShadow-Color: blue; 
+	
+	//background: #fcfffe url(../images/roll-paper.jpg)
+}
+
+.portlet{
+	margin-left:5%;
+	margin-top:7%;
+	height:600px;
+	width:580px;
+//	border-radius: 28px;
+	
+//	 -webkit-box-shadow:  0px -5px 5px 3px #aaa;
+        
+    box-shadow:  0px -10px 10px 2px #cbcbcb;
+	
+   background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #c6d2f6), color-stop(0.38,#ecf0fc), color-stop(0.00, #fcfffe));
+//	background: #fcfffe url(../images/bb.jpg);
+//	background-color:#f0f0f0;
+}
+
+.portlet-content-container .portlet-body div{
+	
+	font:italic bold 12px/30px Georgia,serif;
+}
+
+
+
+.portlet-content-container .portlet-body div a{
+	font:bold 15px/30px Georgia,serif;
+}
+
+.portlet-content{
+	height:450px;
+}
+
+//scroll
+
+.portlet-content-container{
+overflow-y: auto;
+
+width: 540px;
+height:400px;
+
+
+
+}
+
+
+
+.portlet-content-container::-webkit-scrollbar {
+
+	
+width: 10px;
+-webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15) inset,0 1px 0 0 grey;
+-moz-box-shadow: 0 0 1px 0 rgba(0,0,0,.15) inset,0 1px 0 0 grey;
+box-shadow: 0 0 1px 0 rgba(0, 0, 0, .15) inset,0 1px 0 0 grey;
+background-color: transparent;
+}
+
+
+.portlet-content-container::-webkit-scrollbar, .portlet-content-container::-webkit-scrollbar-thumb {
+
+overflow: visible;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+border: solid 2px #A6A6A6;
+}
+.portlet-content-container::-webkit-scrollbar-thumb {
+background-color:#7a96ea;
+}
+
+
+.portlet-content-container::-webkit-scrollbar-button {
+height: 0;
+display: block;
+background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+

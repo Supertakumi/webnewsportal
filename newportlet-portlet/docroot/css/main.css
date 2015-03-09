@@ -1,0 +1,223 @@
+.newportlet-portlet .ribbon{
+	position:absolute;
+//	background-color:blue;
+	margin-top:0px;
+	margin-left:182px;
+}
+.newportlet-portlet .pp{
+	font:bold 100px Georgia,serif;
+//	text-shadow:2px 2px grey;
+	position:absolute;
+	float:left;
+	margin-left:270px;
+//	background-color:yellow;
+	margin-top:10px;
+}
+.newportlet-portlet .pp p{
+	font:italic bold 30px Georgia,serif;
+	color:#1b82e6;
+}
+
+.newportlet-portlet .portlet-topper{
+	display:none;
+}
+
+.newportlet-portlet .portlet-content-container{
+overflow-y: hidden;
+height:1500px;
+}
+
+.newportlet-portlet .portlet-content-container .portlet-body{
+	position:absolute;
+//	background-color:yellow;
+	margin-top:-10px;
+}
+.newportlet-portlet .portlet{
+	
+	 box-shadow:  0px 0px 10px 2px #cbcbcb;
+	
+   background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #d9e1f9), color-stop(0.38,#d9e1f9), color-stop(0.00, #d9e1f9));
+	border-radius: 10px;
+	margin-top:40px;
+	margin-left:-10px;
+	width:110%;
+	height:220px;
+}
+
+.newportlet-portlet .portlet-topper h1, .newportlet-portlet .portlet-topper-toolbar{
+	//display:none;
+}
+
+
+.newportlet-portlet .portlet-content{
+	
+	border-top-width:0px;
+//	border-top-style:groove 0px black;
+	margin-left:-1%;
+//	background-color:blue;
+	width:80%;
+}
+ .newportlet-portlet .portlet-topper{
+//	background-color:red;
+	width:50%;
+	
+
+ }
+
+
+
+.newportlet-portlet .aaaaa{
+		background-color:blue;
+}
+
+.newportlet-portlet .rb{
+	
+	
+	background-color:green;;
+	
+	margin-top:250px;
+}
+.newportlet-portlet .portlet-topper{
+	//display: none;
+}
+
+.newportlet-portlet h1
+{
+//color:orange;
+//text-align:center;
+}
+.newportlet-portlet .portlet-content
+{
+}
+
+.newportlet-portlet .portlet
+{
+	background-color: transparent;
+	border: 0px solid blue;
+}
+
+.newportlet-portlet .one{
+	background: url(../images/1.jpg);
+}
+.newportlet-portlet .sing-in{
+	display: block;
+}
+.newportlet-portlet .reg{
+	display: none;
+}
+
+#email, #password, #repassword, #gender, #dob, #month, #year, #fName, #lName {
+	border-color: grey;
+}
+
+.newportlet-portlet p
+{
+	background: url(../../../images/input_shadow.png);
+}
+
+.newportlet-portlet .portlet-topper
+{
+	//display: none;
+}
+
+#dob, #month, #year 
+{
+	color: grey;
+}
+
+option
+{
+	color:black;
+}
+
+#s1, #s2, #s3, #s4
+{
+	color:grey;	
+}
+
+#t1
+{
+	height:20px;
+	vertical-align:bottom;
+}
+
+
+.div-upside-down1
+{
+//	display:none;
+	float:left;
+	
+	margin-top:60px;
+	margin-left:70px;
+	position:absolute;
+    width:350px;
+	height:auto;
+	
+	transition: height 8s;  
+	-webkit-transition: height 2s, -webkit-transform 4s; /* Safari */
+
+    background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+	border-radius: 28px;
+	box-shadow: 5px 5px 5px #888888;
+
+	 opacity: 0.9;
+
+}
+
+.regclass
+{
+	margin-top:60px;
+	margin-left:70px;
+	position:absolute;
+	width:350px;
+	height:1px;
+	
+	transition: height 8s;  
+	-webkit-transition: height 2s, -webkit-transform 4s; /* Safari */
+	
+	background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+	border-radius: 28px;
+	box-shadow: 5px 5px 5px #888888;
+	
+	opacity: 0.9;	
+	//margin-top:500px;
+	//position: absolute;
+}
+
+
+#td1, #td2, #td3, #td4, #td5, #tr1, #tr2, #tr3, #tr4, #tr5, #tr6, #tr7, #tr8, #rf
+{
+	 opacity: 0.0;
+}
+
+	
+.body1{
+	background:blue;
+}
+
+#a1, #rf
+{
+	color:#083e55;
+	font-size:12pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

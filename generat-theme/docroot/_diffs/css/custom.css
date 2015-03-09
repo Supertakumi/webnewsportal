@@ -1,0 +1,183 @@
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+#skip-to-content{
+	display:none;
+}
+
+.page-title{
+	display:none;
+}
+
+#navigation span, #navigation ul{
+	display:none;
+}
+
+#navigation {
+//	margin-left:5px;
+	background: #ffffff url(../images/map.jpg);
+	height: 300px;
+	width: 1250px;
+//border-buttom-left-radius:40px;
+//	border-radius:40px;
+	box-shadow: 3px 3px 6px 0px #888888;
+    border-top-style:outset;
+    border-top-width:5px;
+    border-color:#aaa;
+//background:red;
+//	display:none;
+}
+
+#breadcrumbs{
+	display: none;
+}
+
+.site-title{
+//	background: blue;
+//	width: 200px;
+}
+
+#wrapper{
+	background:#fcfffe;	
+	margin-top: -20px;
+	margin-left: 50px;
+	height: 1000px;
+	width:1250px;
+	box-shadow: 3px 0px 6px 0px #888888;
+    border-left-style:outset;
+   // border-color:#aaa;
+}
+
+#main-content
+{ 
+	background:#fcfffe;
+	height:3000;
+	width:1200;
+//	overflow:scroll;
+	
+}
+
+#wrapper #heading
+{
+background:#3A8AB3 url(../images/headerBG.gif) repeat-x top left;
+//background-image: url(http://protolize.org/images/headerBG.gif);
+background-position-x: 0%;
+background-position-y: 0%;
+background-size: initial;
+background-repeat-x: repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: #3A8AB3;
+
+height:100px;
+
+box-shadow: 3px 0px 6px 0px #888888;
+border-left-style:outset;
+border-color:#aaa;
+	
+}
+
+body{
+//background:#fdfcfd;
+ background: #ffffff url(../images/one.jpg);
+}
+
+.portlet-topper{
+	margin-top:20px;
+	margin-left:45px;
+	//background: #fcfffe url(../images/portlet-topperaaa.png) no-repeat;
+	//background-attachment: fixed;
+	height: 30px;
+}
+
+#banner #sign-in{
+	color:#fcfffe;
+	font:italic bold 20px Georgia,serif;
+	margin-left:90%;
+	margin-top:1%;
+}
+
+#banner
+{
+	background:#aaa;
+}
+
+
+.portlet-content{
+	margin-top:2%;
+	margin-left: 7%;
+	height:400px;
+ 	width:520px;
+	overflow-y:scroll;
+	
+//	 background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #dcebfb), color-stop(0.38,#e5f0f6), color-stop(0.00, #f6fafe)); 
+	
+	
+//	border-radius: 28px;
+//	box-shadow: 0px 30px 40px rgba(0,0,0,.1);;
+
+//	 opacity: 1;
+//	 scrollbar-base-color: orange; 
+//	scrollbar-arrow-color: green;
+//	scrollbar-DarkShadow-Color: blue; 
+	
+//	overflow:scroll;
+//	background: #fafffa;
+//opacity:0.5;
+//	background: #fcfffe url(../images/Picture2.png);
+
+	
+}
+.portlet-body {
+//	height:200px;
+//	width:150px;
+//overflow:scroll;
+ scrollbar-base-color: orange; 
+	scrollbar-arrow-color: green;
+	scrollbar-DarkShadow-Color: blue; 
+	
+	//background: #fcfffe url(../images/roll-paper.jpg)
+}
+
+.portlet{
+	margin-left:2%;
+	height:600px;
+	width:600px;
+//	border-radius: 28px;
+	//box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+	 -webkit-box-shadow:  0px -5px 5px 3px #aaa;
+        
+        box-shadow:  0px -5px 5px 3px #aaa;
+	
+background-image: -webkit-gradient(linear,left bottom, left top, color-stop(0.50, #E4FFCC), color-stop(0.38,#F7FFF4), color-stop(0.00, #fcfffe));
+//	background: #fcfffe url(../images/bb.jpg);
+//	background-color:#f0f0f0;
+}
+
+::-webkit-scrollbar-track {
+      background-color: #b46868;
+} /* the new scrollbar will have a flat appearance with the set background color */
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2);
+} /* this will style the thumb, ignoring the track */
+::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
